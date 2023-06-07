@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #EEEFF1;
+  padding-top: 41px;
+}
+.header__logo h1 {
+  color: red;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 14px;
+}
+.header__menu ul li {
+  margin-left: 30px;
+}
+.header__menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.header__btn {
+  display: flex;
+  justify-content: end;
+}
+.header button {
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  width: 208px;
+  height: 56px;
+  background: #1B1B1D;
+  box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+  border-radius: 63px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #fff;
+}
+
+.cofe {
+  background: #EEEFF1;
+}
+.cofe__text h6 {
+  width: 597px;
+  height: 420px;
+  font-weight: 800;
+  font-size: 124px;
+  line-height: 140px;
+  padding-top: 234px;
+}
+.cofe__img {
+  padding-top: 203px;
+}
+.cofe__logo {
+  padding: 145px 844px 423px 523px;
+  width: 73px;
+  height: 58px;
+}
+.cofe__p {
+  margin-top: -300px;
+}
+.cofe__p p {
+  width: 530px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+.cofe__btn {
+  margin-top: 100px;
+}
+.cofe__btn button {
+  gap: 10px;
+  width: 225px;
+  height: 70px;
+  background: #1B1B1D;
+  border-radius: 126px;
+  color: #fff;
+}
+.cofe__link {
+  margin-left: 300px;
+  margin-top: -50px;
+}
+.cofe__link a {
+  width: 121px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #1B1B1D;
+}
+
+.main__img {
+  margin-top: 54px;
+}
+.main__title {
+  width: 702px;
+  height: 70px;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  color: #1B1B1D;
+}/*# sourceMappingURL=style.css.map */
